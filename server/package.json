@@ -1,0 +1,23 @@
+{
+  "name": "music-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha test/all.js"
+  },
+  "author": "Joe Kriefall",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "azure-storage": "^0.10.0",
+    "elasticsearch": "^11.0.1",
+    "express": "^4.13.4",
+    "moment": "^2.13.0",
+    "mongodb": "^2.1.18"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.4"
+  }
+}
